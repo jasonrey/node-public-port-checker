@@ -29,3 +29,4 @@ Use -h (or --help) for more info:
 ## Todo
 
 - Allow custom methods
+- Summary option
