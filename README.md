@@ -25,3 +25,7 @@ Use -h (or --help) for more info:
 `listenport -h`
 
 `checkport -h`
+
+## Todo
+
+- Allow custom methods
