@@ -1,0 +1,26 @@
+{
+  "name": "public-port-checker",
+  "version": "1.0.0",
+  "description": "Check if ports are open by starting a server on 1 end, and scanning on the other end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrey/node-public-port-checker.git"
+  },
+  "author": "JSON object <jsonobject@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonrey/node-public-port-checker/issues"
+  },
+  "homepage": "https://github.com/jasonrey/node-public-port-checker#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "commander": "^2.12.1"
+  }
+}
