@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "commander": "^2.12.1",
+    "request": "^2.83.0",
     "request-promise-native": "^1.0.5"
   }
 }
