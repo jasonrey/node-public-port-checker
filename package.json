@@ -2,9 +2,12 @@
   "name": "public-port-checker",
   "version": "1.0.0",
   "description": "Check if ports are open by starting a server on 1 end, and scanning on the other end.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "checkport": "./cli/checkport.js",
+    "listenport": "./cli/listenport.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
     "standard": "^10.0.3"
   },
   "dependencies": {
-    "commander": "^2.12.1"
+    "commander": "^2.12.1",
+    "request-promise-native": "^1.0.5"
   }
 }
